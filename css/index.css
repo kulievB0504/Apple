@@ -1,0 +1,1351 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'SF Pro Display';
+
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+
+
+/* HEADER */
+
+.header {
+    position: relative;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    transition: .3s;
+
+}
+
+.apple__logo img {
+    width: 20px;
+    height: 20px;
+}
+
+.search__icon svg {
+    width: 20px;
+}
+
+.search__icon {
+    width: 35px;
+}
+
+.shopping__bag svg {
+    width: 20px;
+}
+
+
+/* NAV */
+nav {
+    font-size: 12px;
+}
+
+
+
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(92, 89, 89);
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color .2s linear;
+    position: relative;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+.nav__link:active {
+    color: #ffc800a7;
+}
+
+.nav__link:hover {
+    color: rgb(42, 41, 41);
+}
+
+.ribbon__text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ribbon__credit__box {
+    background-color: #f5f5f7;
+
+}
+
+.carrierpromotion {
+    padding-top: 20px;
+    background-color: #f5f5f7;
+
+}
+
+.carrierpromotion__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f7;
+    border-radius: 4px;
+    padding: 14px 0;
+    gap: 25px;
+}
+
+.carrierpromotion__box p {
+    max-width: 140px;
+    margin-left: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.carrierpromotion__box .s_c_d {
+    line-height: 1.33337;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* .deals a {
+
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #06c;
+    cursor: pointer;
+ 
+} */
+
+
+
+
+.deals a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    color: #06c;
+    cursor: pointer;
+
+}
+
+.deals a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    display: none;
+    height: 1px;
+    background-color: #06c;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: .3s;
+}
+
+.deals a:hover {
+    color: #06c;
+}
+
+.deals a:active {
+    color: #06c;
+}
+
+.deals a:hover::after {
+    display: block;
+    background-color: #06c;
+
+
+
+}
+
+
+.images {
+    display: flex;
+    max-width: 100%;
+    height: 24px;
+
+}
+
+.carrierpromotion-ribbon {
+    padding-top: 20px;
+}
+
+
+.second__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.section {
+    padding: 52px 0 22px;
+
+}
+
+
+
+.violator-frameless {
+    color: #bf4800;
+}
+
+.bfe-header h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.getting__link {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.framelesss_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.getting_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+
+
+.getting {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    color: #06c;
+    cursor: pointer;
+
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    padding: 12px 16px;
+    margin: 6px 0;
+
+}
+
+
+
+
+.getting::after {
+    content: "";
+    display: block;
+    width: 100%;
+    display: none;
+    height: 1px;
+    /* background-color: #06c; */
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+    transition: .3s;
+}
+
+
+
+.main__flex__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .position-imgage {
+    position: relative;
+} */
+
+.rf-bfe-gallery-image-wrapper {
+    max-width: 705px;
+    height: 505px;
+    position: sticky;
+    top: 150px;
+}
+
+
+.disblockingspan {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.rf-bfe-column-right h3 {
+    color: #86868b;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+
+.from-selector-title {
+    font-weight: 560;
+    font-size: 21px;
+}
+
+.from-label-small {
+    margin-top: 0.23529rem;
+}
+
+
+.form-selector-left-col-rf-bfe-selector-left-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-borders-configuration {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #86868b;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+sup {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.form-label-small {
+    color: #86868b;
+}
+
+.trade-in {
+    text-align: end;
+    color: #86868b;
+
+}
+
+.brackingbox {
+    display: flex;
+}
+
+.rf-bfe-column-right .iphone-borders-configuration {
+    margin-bottom: 20px;
+}
+
+.iphone-borders-configuration:nth-last-child(2) {
+    margin-bottom: 25px;
+}
+
+.price-point-link {
+    text-decoration: none;
+    color: #86868b;
+
+}
+
+.rf-bfe-decision-support {
+    border-radius: 12px;
+    background-color: #f5f5f7;
+    padding: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+
+}
+
+.rc-decisionsection-header {
+    font-weight: 600;
+}
+
+.rc-decisionsection-desc {
+    color: #292938;
+}
+
+.rc-decisionsection {
+    max-width: 76%;
+
+}
+
+/* .rf-bfe-product-dimension-color {
+    font-weight: 600;
+    font-size: 20px;
+
+} */
+
+
+.img {
+    width: 765px;
+    height: 100%;
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-7inch_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1671474922844');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 3s;
+    border-radius: 18px;
+}
+
+.rf-bfe-column-right {
+    max-width: 30%;
+}
+
+
+button {
+    border: none;
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.Deep {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #81819c;
+
+}
+
+
+.Deep:hover {
+    outline-color: transparent;
+    /* outline-style: solid; */
+    box-shadow: 0 0 0 4px rgb(228, 228, 228);
+    scale: 1.1;
+}
+
+.Deep:active {
+    background-color: #79799ee3;
+    scale: 1;
+}
+
+
+.Gold {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+.Gold:hover {
+    outline-color: transparent;
+    /* outline-style: solid; */
+    box-shadow: 0 0 0 4px #e4e4e4;
+    scale: 1.1;
+}
+
+.Gold:active {
+    background-color: rgba(250, 235, 215, 0.805);
+    scale: 1;
+
+}
+
+
+.Silver {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.Silver:hover {
+    outline-color: transparent;
+    /* outline-style: solid; */
+    box-shadow: 0 0 0 4px #e4e4e4;
+    scale: 1.1;
+}
+
+.Silver:active {
+    background-color: rgba(192, 192, 192, 0.807);
+    scale: 1;
+
+}
+
+
+.Space {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgb(83, 83, 83);
+}
+
+.Space:hover {
+    outline-color: transparent;
+    /* outline-style: solid; */
+    box-shadow: 0 0 0 4px #e4e4e4;
+    scale: 1.1;
+}
+
+.Space:active {
+    background-color: rgba(83, 83, 83, 0.773);
+    scale: 1;
+
+}
+
+
+.colors-iphone-buttons-click {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.border-iphone-active {
+    border: 2px solid black;
+}
+
+.span-color-brake {
+    padding: 0 0 20px 0;
+
+}
+
+.span-color-brake span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+.from-selector-imagelikevideo {
+    position: relative;
+    width: 126px;
+    height: 120px;
+}
+
+.colors-iphone-buttons-click button {
+    color: transparent;
+}
+
+
+.iphone-borders-configuration-video-storage {
+    border-radius: 12px;
+    border-width: 1px;
+    cursor: pointer;
+    background-color: #f5f5f7;
+    display: flex;
+}
+
+.iphone-borders-configuration-video-storage .from-selector-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.iphone-borders-configuration-video-storage img {
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.from-selector-clue {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.from-title-clue-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 53%;
+    padding: 16px;
+
+}
+
+.rf-bfe-selectionarea {
+    padding-top: 120px;
+}
+
+
+
+.mplayer {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    top: 40%;
+    right: 42%;
+}
+
+.rf-bfe-selectionarea h3 {
+    color: #86868b;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.iphone-borders-configuration-footone {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #86868b;
+    background-color: transparent;
+    width: 450px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone-footone-flex-box {
+    display: flex;
+    gap: 20px;
+
+}
+
+.condition-select-trade-smtphone {
+    font-weight: 560;
+    font-size: 21px;
+}
+
+
+
+/* MACBOOKINDEX */
+
+
+.macbook_section {
+    padding: 70px 0 134px 0;
+}
+
+.macbook__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.mac-bfe-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    flex-direction: column;
+    padding-bottom: 63px;
+
+
+}
+
+.mac-bfe-header span {
+    font-size: 17.8px;
+    font-weight: 500;
+    font-family: Gilroy;
+    font-weight: 500;
+    padding: 0px 95px 0 95px;
+}
+
+.mac-bfe-header h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.macbook-flex-box {
+    max-width: 55%;
+    height: 290px;
+    display: flex;
+    margin: 0 auto;
+    /* gap: 76px; */
+    justify-content: space-between;
+
+}
+
+
+.macbook-images {
+    background-image: url(../img/mbp14-spacegray-select-202110.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 312px;
+
+}
+
+
+.mac-bfe-font {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.white_to_blue {
+    color: #0071E3;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.macbook-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choose-macbook-color {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    gap: 10px;
+
+
+}
+
+.choose-macbook-color button {
+    border-radius: 10px;
+    background: #CFE7FF;
+
+    color: #FFF;
+    padding: 10px;
+    width: 155px;
+}
+
+
+.choose-macbook-color button+button {
+    border-radius: 10px;
+    background: #CFE7FF;
+    border: 2px solid #CFE7FF;
+
+    color: gray;
+    padding: 10px;
+    width: 155px;
+
+}
+
+.choose-macbook-color button:hover {
+    border: 2px solid gray;
+
+}
+
+.choose-macbook-color button+button:hover {
+    border: 2px solid #0071E3;
+
+
+}
+
+
+.active {
+    border: 2px solid blueviolet;
+}
+
+
+
+.choosing-memory {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    max-width: 320px;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.sdd-storage {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #b6bcc1;
+    background-color: transparent;
+    align-items: center;
+}
+
+.sdd-prices-choosing {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.sdd-storage:hover {
+    border: 2px solid #0071E3;
+
+}
+
+
+.mac-background-active {
+    background-color: #2f00ff;
+
+
+}
+
+
+.modal {
+    background-color: #FFF;
+    color: #000;
+    max-width: 810px;
+    padding: 30px 0;
+    border-radius: 14px;
+    position: absolute;
+    top: 50%;
+    /* bottom: 35%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #c4c4c4;
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+    scale: 1;
+    z-index: 9999;
+    /* overflow: hidden; */
+}
+
+.modal__background {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+    scale: 1;
+}
+
+.modal__close {
+    background: #e8e8ed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+}
+
+.modal .modal__close {
+    margin-left: 20px;
+}
+
+.modal__title h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+.modal__title {
+    margin: 0 100px;
+}
+
+.modal__text {
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+
+.iphone__specialist {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    color: #06c;
+    cursor: pointer;
+
+}
+
+.iphone__specialist::after {
+    content: "";
+    display: block;
+    width: 100%;
+    display: none;
+    height: .5px;
+    background-color: #06c;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: .3s;
+}
+
+.iphone__specialist:hover {
+    color: #06c;
+}
+
+.iphone__specialist:active {
+    color: #06c;
+}
+
+.iphone__specialist:hover::after {
+    display: block;
+    background-color: #06c;
+
+
+
+}
+
+
+.atandt {
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/att-special-deals?wid=306&hei=132&fmt=png-alpha&.v=1658193314910");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 92px;
+    border-radius: 40px;
+}
+
+.tabnav__images a {
+    color: transparent;
+
+
+}
+
+.tmobile {
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/tmobile-special-deals?wid=345&hei=132&fmt=png-alpha&.v=1658193315039");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 92px;
+    border-radius: 40px;
+}
+
+
+.verizone {
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/verizon-special-deals?wid=336&hei=132&fmt=png-alpha&.v=1658193314689");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 92px;
+    border-radius: 40px;
+}
+
+.tabnav__images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.tabnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.iphone-borders-configuration-tabnav {
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #86868b;
+    background-color: transparent;
+    height: 50px;
+    width: 450px;
+    padding: 24px 14px 3px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+
+
+
+.select__absolute {
+    position: relative;
+}
+
+.select__absolute p {
+    color: #6e6e73;
+    top: 8px;
+    left: 19px;
+    font-size: 12px;
+    position: absolute;
+}
+
+
+.field {
+    border: none;
+    padding: 0px 80px 0px 80px;
+    background-color: #f5f5f7;
+    transition: .3s ease;
+
+}
+
+
+.field-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    cursor: pointer;
+    transition: .3s ease;
+    border-bottom: 1px solid #c7c7c8;
+
+}
+
+.field-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.field-content.open {
+    max-height: 1000px;
+    transition: .3s ease;
+
+}
+
+.field-header h2 {
+    padding: 0 10px 5px 0;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.rc-carrierpromotion-plan {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 131px; */
+    padding-top: 20px;
+    border-bottom: 1px solid #c7c7c8;
+}
+
+.rc-carrierpromotion-plan h3 {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    width: 100px;
+}
+
+.rc-carrierpromotion-plan-selector-tite {
+    display: flex;
+    flex-direction: column;
+    width: 484px;
+}
+
+.rc-carrierpromotion-plan-selector-tite .from-selector-title {
+    padding-bottom: 25px;
+}
+
+
+.rc-carrierpromotion-plan-selector-tite p:nth-child(2) {
+    padding-bottom: 0;
+}
+
+.rc-carrierpromotion-plan-selector-tite p:nth-child(4) {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.rc-carrierpromotion-plan-selector-tite p:nth-child(1) {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.rc-carrierpromotion-plan-selector-tite .form-label-small {
+    margin: 5px 0 20px 0;
+}
+
+
+.from-unselector-title {
+    font-size: 14px;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+
+
+
+
+
+.field-two {
+    border: none;
+    padding: 0px 80px 0px 80px;
+    background-color: #f5f5f7;
+    transition: .3s ease;
+
+}
+
+.field-header-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    cursor: pointer;
+    transition: .3s ease;
+    border-bottom: 1px solid #c7c7c8;
+
+}
+
+.field-content-two {
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.field-content-two.open {
+    max-height: 1000px;
+    transition: .3s ease;
+
+}
+
+.field-header-two h2 {
+    padding: 0 10px 5px 0;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+
+.rc-carrierpromotion-plan-two {
+    display: flex;
+    gap: 85px;
+    padding-top: 20px;
+
+
+    border-bottom: 1px solid #c7c7c8;
+
+
+}
+
+
+
+.rc-carrierpromotion-plan-two h3 {
+    font-size: 17px;
+    line-height: 1.23536;
+    width: 100px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+
+}
+
+.rc-carrierpromotion-plan-selector-tite .form-label-small-small {
+    margin: 0px 0 15px 0;
+
+    color: #86868b;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.field-two {
+    border: none;
+    padding: 0px 80px 0px 80px;
+    background-color: #f5f5f7;
+    transition: .3s ease;
+
+}
+
+.field-header-two {
+    padding: 50px 0;
+    cursor: pointer;
+    transition: .3s ease;
+    border-bottom: 1px solid #c7c7c8;
+
+}
+
+.field-content-two {
+    max-height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.field-content-two.open {
+    max-height: 1000px;
+    transition: .3s ease;
+
+}
+
+.field-header-two h2 {
+    padding: 0 10px 5px 0;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.rc-carrierpromotion-plan-two {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 131px; */
+    padding-top: 20px;
+    border-bottom: 1px solid #c7c7c8;
+}
+
+.rc-carrierpromotion-plan-two h3 {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    width: 100px;
+}
+
+.rc-carrierpromotion-plan-selector-tite-two {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+}
+
+.rc-carrierpromotion-plan-selector-tite-two .from-selector-title {
+    padding-bottom: 25px;
+}
+
+
+.rc-carrierpromotion-plan-selector-tite-two p:nth-child(2) {
+    padding-bottom: 0;
+}
+
+.rc-carrierpromotion-plan-selector-tite-two p:nth-child(4) {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.rc-carrierpromotion-plan-selector-tite-two p:nth-child(1) {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.rc-carrierpromotion-plan-selector-tite-two .form-label-small {
+    margin: 5px 0 20px 0;
+}
+
+
+.from-unselector-title-two {
+    font-size: 14px;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+
+
+
+
+.field-tree {
+    border: none;
+    background-color: #f5f5f7;
+    transition: .3s ease;
+    padding: 29px 80px 57px;
+}
+
+
+.field-tree p {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.span__tabnav__changing {
+    padding: 0 0 30px 0;
+}
+
+
+.specialist__link {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    color: #06c;
+    cursor: pointer;
+
+}
+
+.specialist__link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    display: none;
+    height: 1px;
+    background-color: #06c;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: .3s;
+}
+
+.specialist__link:hover {
+    color: #06c;
+}
+
+.specialist__link:active {
+    color: #06c;
+}
+
+.specialist__link:hover::after {
+    display: block;
+    background-color: #06c;
+
+
+
+}
+
+.modal__question__box {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.specialist__image {
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/step1-chat-specialist_AV4?wid=108&hei=108&fmt=png-alpha&.v=1655399908783");
+    background-color: rgb(0, 94, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+    border-radius: 50%;
+}
