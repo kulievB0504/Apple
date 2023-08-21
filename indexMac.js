@@ -43,14 +43,23 @@ buttons.forEach(btn => {
 
 
 
-let price = document.querySelector('.mac-bfe-font span[date-value]')
-let priceAdd = document.querySelectorAll('.sdd-storage span[date-add]')
-let currents = 0
-priceAdd.forEach(btns => {
-    btns.onclick = () => {
-        let Allprice = +btns.getAttribute('data-add')
-        let total = currents + Allprice
-        price.className.add('mac-bfe-font') = total
+const priceElement = document.getElementById('price');
+const buttn = document.querySelectorAll('.sdd-storage');
+let currentPrice = parseInt(priceElement.getAttribute('data-value'));
 
-    }
-})
+buttn.forEach(button => {
+    button.addEventListener('click', () => {
+        const addPrice = parseInt(button.getAttribute('data-add'));
+        
+        if (!button.classList.contains('selected')) {
+            currentPrice += addPrice;
+            button.classList.add('selected');
+        } else {
+            currentPrice -= addPrice;
+            button.classList.remove('selected');
+        }
+        
+        priceElement.textContent = '$' + currentPrice.toLocaleString();
+        priceElement.setAttribute('data-value', currentPrice);
+    });
+});
